@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./assets/img/icons-pay.png" type="image/ico">  
+  <title>Онлайн оплата</title>
+</head>
+<body class="root">
+  <div class="container">
+    <h1 class="title">Оплата товара/заказа</h1>
+    <form action="#" class="form" id="form-pay-card">
+      <label class="explanation" for="#">
+        <div>
+          <img id="visa" class="logo-pay" src="./assets/img/icons-visa.png" alt="Logo-pay-sistem">
+          <img id="mir" class="logo-pay" src="./assets/img/icons-mir.png" alt="Logo-pay-sistem">
+          <img id="master" class="logo-pay" src="./assets/img/icons-master-card.png" alt="Logo-pay-sistem">
+        </div>        
+        <span class="hint">Введите номер карты</span> 
+        <input class="form-input" id="card" type="text" placeholder="0000 0000 0000 0000">
+      </label>
+      <label class="explanation" for="#">
+        <span class="hint">Дата окончания действия карты</span> 
+        <input class="form-input" id="data" type="text" placeholder="MM/YY">
+      </label>
+      <label class="explanation" for="#">
+        <span class="hint">3 цифры на обороте карты</span>
+        <input class="form-input" id="code" type="text" placeholder="CVC/CVV">
+      </label>
+      <label class="explanation" for="#">
+        <span class="hint">Email для отправки онлайн-чека</span>
+        <input class="form-input" id="email" type="email" placeholder="Email">
+      </label>
+      <button class="form-btn-pay" id="btn-pay">Оплатить</button>
+    </form>
+  </div>
+    
+</body>
+</html>
